@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmbackground"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/farmLogo"
+        android:layout_width="284dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/ic_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/account"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="396dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circlepurple"
+        android:clickable="true"
+        android:src="@drawable/ic_perm_identity_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmLogo"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <ImageButton
+        android:id="@+id/AddProblem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="476dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circleorange"
+        android:clickable="true"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmLogo"
+        app:layout_constraintVertical_bias="0.942" />
+
+
+    <ImageButton
+        android:id="@+id/SearchProblems"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circlepink"
+        android:clickable="true"
+        android:src="@drawable/ic_search_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmLogo"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <ImageButton
+        android:id="@+id/MyProblems"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="392dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circleyellow"
+        android:clickable="true"
+        android:src="@drawable/ic_format_list_numbered_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmLogo"
+        app:layout_constraintVertical_bias="0.942" />
+
+
+    <ImageButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cirlcegreen"
+        android:clickable="true"
+        android:src="@drawable/ic_exit_to_app_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmLogo"
+        app:layout_constraintVertical_bias="0.942" />
+
+
+</android.support.constraint.ConstraintLayout>
